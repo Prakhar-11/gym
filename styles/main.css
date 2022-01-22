@@ -1,0 +1,196 @@
+#intro {
+  background: url("../images/gymbg.webp") no-repeat center center;
+  background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #212121 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #212121 !important;
+  }
+}
+
+#intro .h6 {
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.hm-gradient .full-bg-img {
+  /* background: #212121; */
+  background: linear-gradient(
+    40deg,
+    rgba(22, 20, 20, 0.137),
+    rgba(136, 132, 136, 0.178) 100%
+  );
+}
+
+@media (max-width: 450px) {
+  #intro {
+    background: url("../images/bgimagemob1.png") no-repeat center;
+  }
+  .hm-gradient .full-bg-img {
+    /* background: #212121; */
+    background: linear-gradient(
+      40deg,
+      rgba(19, 18, 18, 0.623),
+      rgba(66, 64, 66, 0.075) 100%
+    );
+  }
+}
+
+@media (max-width: 450px) {
+  .margins {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+.card-image {
+  display: block;
+}
+
+#resources .lead {
+  opacity: 0.7;
+}
+
+#facilities {
+  background-color: #424242;
+}
+
+#contact {
+  background: #212121;
+}
+
+#acting {
+  background: url("../images/gym.gif") no-repeat center center;
+}
+
+#monologue {
+  background: url("../images/yoga.gif") no-repeat center center;
+}
+
+#vocal {
+  background: url("../images/zumba1.jpg") no-repeat center center;
+}
+#zumba {
+  background: url("../images/diet.webp") no-repeat center center;
+}
+
+#resources ul li {
+  font-size: 1.1em;
+}
+#footer {
+  background-color: #3a3a3a;
+}
+
+#footer i:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+#contact i:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+#team i:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+#resources .btn:hover {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3);
+}
+
+#intro .btn:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+
+.footer-text {
+  font-family: "Roboto";
+}
+
+.home-testimonial {
+  background-color: #231834;
+  height: 380px;
+}
+
+.home-testimonial-bottom {
+  background-color: #f8f8f8;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  height: 130px;
+  top: 190px;
+}
+
+.home-testimonial h3 {
+  color: var(--orange);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.home-testimonial h2 {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.testimonial-inner {
+  position: relative;
+  top: -174px;
+}
+
+.testimonial-pos {
+  position: relative;
+  top: 24px;
+}
+
+.testimonial-inner .tour-desc {
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.color-grey-3 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  color: #6c83a2;
+}
+
+.testimonial-inner img.tm-people {
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: none;
+}
+
+.link-name {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  color: #6c83a2;
+}
+
+.link-position {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 12px;
+  color: #6c83a2;
+}
