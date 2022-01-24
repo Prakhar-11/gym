@@ -35,6 +35,12 @@
   #intro {
     background: url("../images/salman.jpg") no-repeat center;
   }
+  .hell {
+    margin-top: 70vh;
+  }
+  .testimonials-contact {
+    margin-bottom: auto;
+  }
   .hm-gradient .full-bg-img {
     /* background: #212121; */
     background: linear-gradient(
